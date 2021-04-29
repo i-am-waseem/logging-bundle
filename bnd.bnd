@@ -1,0 +1,8 @@
+Bundle-Version: 1.0.0
+Bundle-Activator: com.demo.customlogger.Activator
+-buildpath: \
+	osgi.core,\
+	osgi.cmpn,\
+	org.apache.logging.log4j.api,\
+	org.apache.logging.log4j.core
+Private-Package: com.demo.customlogger
