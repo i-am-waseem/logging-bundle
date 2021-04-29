@@ -14,11 +14,5 @@ Basically, we have our bundle in generated folder. When i did run this bundle us
 Error starting bundle 80: Unable to resolve com.demo.customlogger[80](R 80.0): missing requirement [com.demo.customlogger [80](R 80.0)] osgi.wiring.package; (&(osgi.wiring.package=org.apache.logging.log4j.core)(version>=2.14.0)(!(version>=3.0.0))) Unresolved requirements: [[com.demo.customlogger [80](R 80.0)] osgi.wiring.package; (&(osgi.wiring.package=org.apache.logging.log4j.core)(version>=2.14.0)(!(version>=3.0.0)))]``
 ```
 
-When i do export the OSGI Bundle as Executable jar and provide that jar to karaf. I get the following error:
-
-```
-Unable to install bundle file:///Users/waseem/Documents/exec_jars/logging-jar: org.osgi.framework.BundleException: OSGi R3 bundle not supported
-```
-
 #### Note
-This bundle runs when i use apache felix.
+This bundle runs when i use apache felix in eclipse.
